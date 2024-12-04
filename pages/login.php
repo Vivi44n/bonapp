@@ -1,4 +1,3 @@
-<?php include('./traitement/traitementconnexion.php'); ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -15,7 +14,7 @@
    	Si utilisateur/trice est non identifié(e), on affiche le formulaire
 	-->
     <?php if (!isset($loggedUser)) : ?>
-        <form action="index.php" method="POST">
+        <form action="connexion" method="post">
             <!-- si message d'erreur on l'affiche -->
             <?php if (isset($errorMessage)) : ?>
                 <div class="alert alert-danger" role="alert">
@@ -24,7 +23,7 @@
             <?php endif; ?>
             <div class="mb-3">
                 <label for="identifient" class="form-label">Identifient</label>
-                <input type="identifient" class="form-control" id="identifient" name="identifient" aria-describedby="indentifient help" placeholder="Veuillez entrer un identifient">
+                <input type="text" class="form-control" id="identifient" name="identifient" aria-describedby="identifient help" placeholder="Veuillez entrer un identifient">
             </div>
             <div class="mb-3">
                 <label for="password" class="form-label">Mot de passe</label>
@@ -35,7 +34,7 @@
         <!-- Si utilisateur/trice bien connectée on affiche un message de succès -->
     <?php else : ?>
         <div class="alert alert-success" role="alert">
-            Bonjour <?php echo $loggedUser['email']; ?> et bienvenue sur le site !
+            Bonjour <?php echo $loggedUser['identifient']; ?> et bienvenue sur le site !
         </div>
     <?php endif; ?>
 

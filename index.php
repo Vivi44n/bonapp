@@ -32,7 +32,16 @@ include("./traitement/traitementrecette.php");
 
 
 
+
+
+
+
 }
+
+else if ($maRoute [0] == "connexion") {
+    include("./traitement/traitementconnexion.php");
+}
+
 else {
 echo ("page non trouvée");
 }

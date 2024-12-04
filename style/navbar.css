@@ -1,5 +1,10 @@
 /* navbar */
 
+body{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -13,8 +18,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-  }
+    text-align: center;
+}
   
   .navbar-title a {
     font-size: 24px;
@@ -28,9 +33,8 @@
     background-color: #eb4034;
     border: none; 
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 1rem;
     color: #fff; 
-    cursor: pointer; 
   }
   
   .btn-login:hover {

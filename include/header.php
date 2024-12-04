@@ -4,6 +4,6 @@
     </div>
     
     <div class="auth-button">
-        <a href="./login" class="btn-login">ConnexionInscription</a>
+        <a href="./login" class="btn-login">Connexion/Inscription</a>
     </div>
 </nav>
