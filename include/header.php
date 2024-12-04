@@ -4,6 +4,6 @@
     </div>
     
     <div class="auth-button">
-        <a href="./db/connexion.php" class="btn-login">Connexion</a>
+        <a href="./login" class="btn-login">ConnexionInscription</a>
     </div>
 </nav>

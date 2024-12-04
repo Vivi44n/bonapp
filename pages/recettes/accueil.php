@@ -9,7 +9,7 @@
 
 <br>
 
-<?php include('./include/barrederecherche.html'); ?>
+<!-- <?php include('./include/barrederecherche.html'); ?> -->
 
 
 <h1>Mes recettes</h1>

@@ -13,10 +13,10 @@
     include("./include/header.php")
     ?>
 
-    <form method="GET" action="?route=recettes">
+    <!-- <form method="GET" action="?route=recettes">
         <input type="text" name="search" placeholder="Rechercher une recette..." value="<?php echo isset($searchQuery) ? htmlspecialchars($searchQuery) : ''; ?>">
         <button type="submit">Rechercher</button>
-    </form>
+    </form> -->
 
     <?php
     include('./include/footer.php');

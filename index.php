@@ -1,6 +1,3 @@
-
-
-
 <?php 
 
 include("./db/connexion.php");
@@ -19,10 +16,20 @@ include("./traitement/traitementrecette.php");
     include("./traitement/traitementaccueil.php");
 
 
-
 } else if($maRoute [0] == "contact") {
 
     include("./pages/contact.php");
+
+
+} else if($maRoute [0] == "recette") {
+
+    include("./pages/recettes/une_recette.php");
+
+
+} else if($maRoute [0] == "login") {
+
+    include("./pages/login.php");
+
 
 
 }
