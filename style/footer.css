@@ -1,0 +1,32 @@
+/* footer */
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .footer p {
+    margin: 0 0 10px;
+  }
+  
+  .footer-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .footer-nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-nav a:hover {
+    color: #0056b3;
+  }
