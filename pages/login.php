@@ -23,13 +23,15 @@
             <?php endif; ?>
             <div class="mb-3">
                 <label for="identifient" class="form-label">Identifient</label>
+                <br>
                 <input type="text" class="form-control" id="identifient" name="identifient" aria-describedby="identifient help" placeholder="Veuillez entrer un identifient">
             </div>
             <div class="mb-3">
                 <label for="password" class="form-label">Mot de passe</label>
+                <br>
                 <input type="password" class="form-control" id="password" name="password">
             </div>
-            <button type="submit" class="btn btn-primary">Envoyer</button>
+            <button type="submit" class="btnbtn-primary">Envoyer</button>
         </form>
         <!-- Si utilisateur/trice bien connectée on affiche un message de succès -->
     <?php else : ?>
@@ -38,6 +40,7 @@
         </div>
     <?php endif; ?>
 
+    <br>
 
     <div class="container">
 
