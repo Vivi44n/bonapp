@@ -1,42 +1,49 @@
-/* navbar */
-
-body{
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #f4f4f4;
-    padding: 1rem 20px; 
-  }
-  
-
-  .navbar-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 10px 20px;
+  background-color: #eb4034;
+  border-bottom: 1px solid #75110a;
 }
-  
-  .navbar-title a {
-    font-size: 24px;
-    font-weight: bold;
-    color: #000; 
-    text-decoration: none;
-  }
-  
-  .btn-login {
-    padding: 8px 15px;
-    background-color: #eb4034;
-    border: none; 
-    border-radius: 5px;
-    font-size: 1rem;
-    color: #fff; 
-  }
-  
-  .btn-login:hover {
-    background-color: #75110a;
-  }
+
+.navbar-title a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  color:  #ffffff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px; 
+}
+
+.btn-inscription {
+  padding: 8px 15px;
+  background-color: #ffffff;
+  border: none; 
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #eb4034;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn-login {
+  padding: 8px 15px;
+  background-color: #ffffff;
+  border: none; 
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #eb4034;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn-inscription:hover,
+.btn-login:hover {
+  background-color:#75110a;
+  color: white;
+}

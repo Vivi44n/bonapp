@@ -6,5 +6,9 @@ $recettes = $query->fetchAll();
 
 
 
+
+
+
+
 include ("./pages/recettes/accueil.php");
 ?>

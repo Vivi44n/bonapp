@@ -23,26 +23,27 @@ include("./traitement/traitementrecette.php");
 
 } else if($maRoute [0] == "recette") {
 
-    include("./pages/recettes/une_recette.php");
+    include("./pages/une_recette.php");
 
+} else if($maRoute [0] == "lasagne") {
+
+    include("./pages/unerecette.php?id=1");
 
 } else if($maRoute [0] == "login") {
 
     include("./pages/login.php");
 
 
+} else if($maRoute [0] == "inscription") {
+
+    include("./pages/inscription.php");
 
 
-
-
-
-}
-
-else if ($maRoute [0] == "connexion") {
+} else if ($maRoute [0] == "connexion") {
     include("./traitement/traitementconnexion.php");
-}
 
-else {
+
+} else {
 echo ("page non trouvée");
 }
 
