@@ -20,15 +20,15 @@
             </div>
         <?php endif; ?>
         <div class="mb-4">
-            <label for="identifiant" class="form-label">Identifiant</label>
-            <input type="text" class="form-control" id="identifiant" name="identifiant" aria-describedby="identifiantHelp" placeholder="Veuillez entrer un identifiant" required>
+            <label for="identifiant" class="form-label">Identifiant</label><br>
+            <input type="text" class="form-control" id="identifiant" name="identifiant" aria-describedby="identifiantHelp" placeholder="Veuillez entrer un identifiant" required><br><br>
         </div>
         <div class="mb-4">
-            <label for="email" class="form-label">Adresse e-mail</label>
-            <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Veuillez entrer une adresse e-mail" required>
+            <label for="email" class="form-label">Adresse e-mail</label><br>
+            <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Veuillez entrer une adresse e-mail" required><br><br>
         </div>
         <div class="mb-4">
-            <label for="password" class="form-label">Mot de passe</label>
+            <label for="password" class="form-label">Mot de passe</label><br>
             <input type="password" class="form-control" id="password" name="mdp" aria-describedby="passwordHelp" required>
         </div>    
 
