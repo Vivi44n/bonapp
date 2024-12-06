@@ -22,21 +22,21 @@
                 </div>
             <?php endif; ?>
             <div class="mb-3">
-                <label for="identifient" class="form-label">Identifient</label>
+                <label for="identifiant" class="form-label">identifiant</label>
                 <br>
-                <input type="text" class="form-control" id="identifient" name="identifient" aria-describedby="identifient help" placeholder="Veuillez entrer un identifient">
+                <input type="text" class="form-control" id="identifiant" name="identifiant" aria-describedby="identifiant help" placeholder="Veuillez entrer un identifiant">
             </div>
             <div class="mb-3">
                 <label for="password" class="form-label">Mot de passe</label>
                 <br>
                 <input type="password" class="form-control" id="password" name="password">
-            </div>
-            <button type="submit" class="btnbtn-primary">Envoyer</button>
+            </div>    
+            <button type="submit" class="btn-primary">Envoyer</button>
         </form>
         <!-- Si utilisateur/trice bien connectée on affiche un message de succès -->
     <?php else : ?>
         <div class="alert alert-success" role="alert">
-            Bonjour <?php echo $loggedUser['identifient']; ?> et bienvenue sur le site !
+            Bonjour <?php echo $loggedUser['identifiant']; ?> et bienvenue sur le site !
         </div>
     <?php endif; ?>
 
