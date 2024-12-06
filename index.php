@@ -23,11 +23,8 @@ include("./traitement/traitementrecette.php");
 
 } else if($maRoute [0] == "recette") {
 
-    include("./pages/une_recette.php");
+    include("./pages/recettes/une_recette.php");
 
-} else if($maRoute [0] == "lasagne") {
-
-    include("./pages/unerecette.php?id=1");
 
 } else if($maRoute [0] == "login") {
 
