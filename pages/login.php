@@ -22,10 +22,10 @@
                 </div>
             <?php endif; ?>
             <div class="mb-3">
-                <label for="identifiant" class="form-label">identifiant</label>
+                <label for="identifiant" class="form-label">Identifiant</label>
                 <br>
                 <input type="text" class="form-control" id="identifiant" name="identifiant" aria-describedby="identifiant help" placeholder="Veuillez entrer un identifiant">
-            </div>
+            </div><br>
             <div class="mb-3">
                 <label for="password" class="form-label">Mot de passe</label>
                 <br>
